@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.image-loader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-loader img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
